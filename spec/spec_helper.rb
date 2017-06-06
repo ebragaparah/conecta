@@ -19,7 +19,7 @@ require './app/controllers/index_controller'
 
 module RSpecMixin
   include Rack::Test::Methods
-  def app() App end
+  # def app() App end
 end
 
 RSpec.configure do |config|

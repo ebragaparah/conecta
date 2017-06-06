@@ -12,7 +12,7 @@ task :s do
 end
 
 task :test do
-  exec "rspec --format d --color"
+  exec "rspec --format d --pattern spec/**/*_spec.rb"
 end
 
 namespace :db do
